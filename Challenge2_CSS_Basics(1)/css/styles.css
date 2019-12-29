@@ -42,6 +42,7 @@ h1 {
     font-family: 'Caveat', cursive;
     font-weight: 400;
     margin: 0;
+    margin-top: 50px;
 }
 h2 {
   font-size: 45px;
@@ -54,7 +55,7 @@ h2 {
   max-width: 800px;
   width: 85%;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 30px 0 60px;
 }
 h3 {
   margin-bottom: 0;
@@ -88,18 +89,18 @@ header {
 .projects {
   background:#6A8A82;
 }
-.projects a { /*link*/
+.projects a { 
   color:#e8d2a0;
 }
-.projects .btn {
+ .btn {
   color: #F7FFF7;
   background: #2F3061;
   text-decoration: none;
-  padding: 8px;
+  padding: 10px;
   border-radius: 4px;
   display: inline-block;
 }
-.projects .btn:hover {
+ .btn:hover {
   background: rgba(47, 48, 97, 80%);                        
 }
 .project-item {
@@ -116,14 +117,10 @@ header {
   background:#A37C27;
 }
 
-button 
-
-
-
 /* Education
 ------------------------------------*/
 .education {
-  background-image: url(../images/sticky%20note%201.jpg);
+  background-image: url(../images/sticky.jpg);
   background-size:  cover;
   background-position: center;
   padding-bottom: 300px;
