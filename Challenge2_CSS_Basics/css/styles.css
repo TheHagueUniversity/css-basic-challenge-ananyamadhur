@@ -131,6 +131,36 @@ header {
 }
 
 
+/* Gallery Box 
+-------*/
+.gallery-box {
+    text-align: center;
+    width:60%;
+}
+ 
+.thumbnail {
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid black;
+    
+}
+
+.thumbnail img {
+    width: 190px;
+    height: 190px;
+    padding-top: 5px;
+    
+}
+#g {
+    text-align: left;
+    
+}
+.Gallery {
+    background: cornflowerblue;
+    
+}
 /* Contact Info
 ------------------------------------*/
 footer {
